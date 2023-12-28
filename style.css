@@ -1,0 +1,55 @@
+*{
+    font-family: arial;
+    
+    background-color: var(--barra-color);
+    color:var(--letra-color)
+}
+:root{
+    --barra-color:#413040;
+    --titulo-color:#EAA353;
+    --back-color:#6c6368; 
+    --letra-color:#b9a173;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    float: left;
+    padding: 25px 0;
+}
+
+nav ul li u {
+text-decoration: none;
+font-weight: bold;
+}
+.inicio{
+    display: flex;
+    background-color: red;
+    position:fixed 1
+
+   
+}
+h1{
+    text-align: center;
+    color:var(--titulo-color)
+
+
+}
+h2{
+font-family: 'Times New Roman', Times, serif;
+text-decoration: underline;
+color:var(--titulo-color)
+}
+
+footer{
+margin-bottom: 0%;
+padding-bottom: 0px;
+background-color: var(--titulo-color);
+color: var(--back-color);
+}
+.contacto{
+    background-color: var(--titulo-color);
+    color: var(--back-color);
+}
